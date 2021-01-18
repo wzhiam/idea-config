@@ -1,0 +1,202 @@
+<templateSet group="JasonGroup">
+  <template name="tcw" value="try {&#10;    $END$&#10;} catch (Exception e) {&#10;    throw new WeWebException(e.getMessage());&#10;}" description="控制层异常捕获try...catch块" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ie" value="StringUtils.isEmpty($END$)" description="判断字符串为空" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tcs" value="try {&#10;    $END$&#10;} catch (Exception e) {&#10;    throw new WeServiceException(e.getMessage());&#10;}" description="业务层异常捕获try...catch块" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ine" value="StringUtils.isNotEmpty($END$)" description="判断字符串不为空" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ib" value="StringUtils.isBlank($END$)" description="判断字符是否空白" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="inb" value="StringUtils.isNotBlank($END$)" description="判断字符是否非空白" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tcr" value="try {&#10;    $END$&#10;} catch (Exception e) {&#10;    throw new WeRestException(e.getMessage());&#10;}" description="接口控制层异常捕获try...catch块" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ec" value="Example example = new Example($CLASS$);&#10;Example.Criteria criteria = example.createCriteria();&#10;$END$" description="创建通用Mapper的条件对象" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="notes" value="//--------------------       $END$  Start       --------------------" description="单行注释开始" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xnote" value="&lt;!-- $END$ --&gt;" description="xml或HTML文件注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="cine" value="Collections3.isNotEmpty($END$)" description="判断集合不为空" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cie" value="Collections3.isEmpty($END$)" description="判断集合为空" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="idkey" value="@Id&#10;@KeySql(sql = &quot;select lower(sys_guid()) from dual&quot;, order = ORDER.BEFORE)$END$" description="实体类中的ID注解" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="notee" value="//--------------------       $END$  End       --------------------" description="单行注释结束" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="note" value="//--------------------       $END$         --------------------" description="单行注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ct" value="@ColumnType(jdbcType = JdbcType$END$)" description="获取字段类型注解" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pns" value="@RequestParam(value = &quot;page&quot;, defaultValue = &quot;1&quot;) Integer page,&#10;@RequestParam(value = &quot;limit&quot;, defaultValue = &quot;10&quot;) Integer limit,$END$" description="分页页数和每页数据量设置" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tns" value="throw new WeServiceException(HttpStatus.NOT_ACCEPTABLE, $END$);" description="业务层异常" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tnw" value="throw new WeWebException(HttpStatus.NOT_ACCEPTABLE, $END$);" description="web层异常" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tnr" value="throw new WeRestException(HttpStatus.NOT_ACCEPTABLE, $END$);" description="Rest层异常" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sm" value="if (StringUtils.isBlank($FILED$.getId())) {&#10;    $FILED$.setCreateTime(getCurrentTime());&#10;    this.insertSelective($FILED$);&#10;} else {&#10;    $FILED$.setModifyTime(getCurrentTime());&#10;    this.updateByIDSelective($FILED$);&#10;}" description="save方法" toReformat="false" toShortenFQNames="true">
+    <variable name="FILED" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jp" value="@JsonProperty(&quot;$END$&quot;)" description="@JsonProperty注解" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ld" value="logger.debug(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; [$MODULE$] $MESSAGE$&quot;, $PARAM$);" description="调试级别日志" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="li" value="logger.info(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; [$MODULE$] $MESSAGE$&quot;, $PARAM$);" description="常规级别日志" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lw" value="logger.warn(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; [$MODULE$] $MESSAGE$&quot;, $PARAM$);" description="警告级别日志" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="le" value="logger.error(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; [$MODULE$] $MESSAGE$&quot;, $PARAM$);" description="错误级别日志" toReformat="false" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rjrf" value="return new JsonResponse(false, $END$);" description="返回错误的JsonResponse" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="rjrt" value="return new JsonResponse(true$END$);" description="返回正确的JsonResponse" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="hh" value="&lt;!DOCTYPE html&gt;&#10;&lt;html xmlns:th=&quot;http://www.thymeleaf.org&quot;&#10;      xmlns:layout=&quot;http://www.ultraq.net.nz/web/thymeleaf/layout&quot;&#10;      layout:decorate=&quot;~{layout/layout_iframe}&quot;&gt;" description="HTML文件头部" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="try {&#10;    $END$&#10;} catch (Exception e) {&#10;    throw new BusinessException(e.getMessage());&#10;}" description="异常捕获try...catch块" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lm" value="List&lt;Map&lt;String, Object&gt;&gt; " description="生成List&lt;Map&lt;String, Object&gt;&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gdb" value="StringUtil.getDBString($END$)" description="getDBString" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tcb" value="try {&#10;    $END$&#10;} catch (Exception e) {&#10;    throw new BusinessException(e.getMessage());&#10;}" description="制剂项目 捕获try...catch块" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="anno" value="/**&#10; * @author wengzhen&#10; * @version V1.0&#10; * @ClassName: &#10; * @Description: &#10; * @Date &#10; */" description="文档注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gets" value="StringUtil.getMapStringValue($END$)" description="获取map中string值" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="geti" value="StringUtil.getMapIntegerValue($END$)" description="获取map中integer值" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="start" value="long start = System.currentTimeMillis();" description="开始时间" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

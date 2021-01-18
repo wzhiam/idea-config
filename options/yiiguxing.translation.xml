@@ -1,0 +1,77 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="FAILURE" />
+      <item value="Release" />
+      <item value="introduct" />
+      <item value="ancient" />
+      <item value="reprocess of nodes before showing" />
+      <item value="Batch" />
+      <item value="SUMMARY" />
+      <item value="confirm" />
+      <item value="conclusion" />
+      <item value="CANCEL" />
+      <item value="the given identifier" />
+      <item value="identifier" />
+      <item value="basket" />
+      <item value="Deserializer" />
+      <item value="populate" />
+      <item value="material" />
+      <item value="materil" />
+      <item value="predict" />
+      <item value="Instantiation Aware Bean Post Processor" />
+      <item value="Initializing Bean" />
+      <item value="Disposable" />
+      <item value="Initializing" />
+      <item value="popup" />
+      <item value="Inventory" />
+      <item value="temperture" />
+      <item value="Unit" />
+      <item value="Time Unit" />
+      <item value="Determine the next execution time according to the given trigger context. Next execution times are calculated based on the TriggerContext of the previous execution; therefore, overlapping executions won't occur." />
+      <item value="Determine the next execution time according to the given trigger context. * &lt;p&gt;Next execution times are calculated based on the * {@linkplain TriggerContext#lastCompletionTime completion time} of the * previous execution; therefore, overlapping executions won't occur." />
+      <item value="a space-separated list of time fields, following cron * expression conventions" />
+      <item value="解除" />
+      <item value="The params that matches the parts of the input message of the operation. If the * BindingOperationInfo supports unwrapping, it assumes the params are in the &quot;unwrapped&quot; form. If * params are in the wrapped form, use invokeWrapped" />
+      <item value="incompatible" />
+      <item value="specified" />
+      <item value="Offline" />
+      <item value="ambiguously" />
+      <item value="No mapping found for [occurTime] in order to sort on" />
+      <item value="all shards failed" />
+      <item value="Rejecting mapping update to [mattress] as the final mapping would have more than 1 type" />
+      <item value="Rejecting" />
+      <item value="instantiate" />
+      <item value="Bean Instantiation Exception" />
+      <item value="备份" />
+      <item value="Unsatisfied" />
+      <item value="breadcrumb" />
+      <item value="bread" />
+      <item value="crumb" />
+      <item value="rsquare" />
+      <item value="lcurly" />
+      <item value="encode" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="70" />
+        <entry key="ENGLISH" value="71" />
+        <entry key="FRENCH" value="1" />
+        <entry key="LATIN" value="2" />
+        <entry key="INDONESIAN" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Settings">
+    <option name="baiduTranslateSettings">
+      <app-key>
+        <option name="appId" value="836773082@qq.com" />
+      </app-key>
+    </option>
+    <option name="ignoreRegExp" value="" />
+    <option name="overrideFont" value="true" />
+    <option name="phoneticFontFamily" value="Consolas" />
+    <option name="primaryFontFamily" value="Microsoft YaHei" />
+    <option name="showStatusIcon" value="false" />
+  </component>
+</application>

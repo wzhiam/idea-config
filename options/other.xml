@@ -1,0 +1,148 @@
+<application>
+  <component name="CodeStyleSchemesUIConfiguration">
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/Desktop/Yesoft.codestyle.json" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="E:/Program Files/nodejs/node.exe" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="#xdebugger.evaluate.splitter" value="0.387538" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="0" />
+    <property name="AFTER.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="true" />
+    <property name="AFTER.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="AFTER.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.PALETTE.SPLIT" value="false" />
+    <property name="ATTACHED_TOOL_WINDOW.DEFAULT.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.LEFT.UNSCALED.WIDTH" value="225" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.AUTO_HIDE" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.PALETTE.LEFT" value="true" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.RIGHT.UNSCALED.WIDTH" value="225" />
+    <property name="ATTACHED_TOOL_WINDOW.Preview.TOOL_ORDER" value="PALETTE" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_GUTTER_ICONS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.EDITOR_TAB_PLACEMENT" value="1" />
+    <property name="BEFORE.DISTRACTION.MODE.HIDE_TOOL_STRIPES" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_FOLDING_OUTLINE_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_INDENT_GUIDES_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_RIGHT_MARGIN_SHOWN" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.IS_WHITESPACES_SHOWN" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_BREADCRUMBS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_MAIN_TOOLBAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_METHOD_SEPARATORS" value="true" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_NAVIGATION_BAR" value="false" />
+    <property name="BEFORE.DISTRACTION.MODE.SHOW_STATUS_BAR" value="false" />
+    <property name="BuildView.Splitter.Proportion" value="0.1758658" />
+    <property name="ColorChooser.RecentColors" value="212-92-94-255,,,255-102-102-255,,,255-86-86-255,,,255-201-189-255,,,255-247-244-255,,,255-243-238-255,,,255-109-112-255,,,255-106-107-255,,,255-170-163-255,,,93-98-112-255,,,255-103-95-92,,,255-247-79-255,,,255-251-54-255,,,229-214-0-255,,,206-197-68-255,,,37-155-20-255,,,107-155-9-255,,,224-250-251-255,,,204-255-220-92,,,255-204-204-92" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.6163611" />
+    <property name="CommitChangeListDialog.SPLITTER_PROPORTION_2" value="0.6940874" />
+    <property name="CommittedChanges.SplitterProportions.0" value="700" />
+    <property name="CommittedChanges.SplitterProportions.1" value="500" />
+    <property name="Copy.OpenInEditor" value="false" />
+    <property name="DBE.Default.Dialect" value="Oracle" />
+    <property name="Darcula.SavedEditorTheme" value="_@user_Darcula" />
+    <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="FrameworksFinderRecursivePanel[0]" value="0.051948052" />
+    <property name="FrameworksFinderRecursivePanel[1]" value="0.110730596" />
+    <property name="FrameworksFinderRecursivePanel[2]" value="0.12845215" />
+    <property name="InstalledPluginsSearchHistory" value="GenerateAllSetter&#10;maven&#10;Free MyBatis plugin&#10;free mybaits&#10;free mybaits plugin" />
+    <property name="JUnit.Splitter.Proportion" value="0.11986301" />
+    <property name="JUnitSupport.hidePassedTests" value="false" />
+    <property name="KEYMAP" value="start SSH&#10;format" />
+    <property name="LAST_INJECTED_LANGUAGE" value="MySQL" />
+    <property name="LiveContextsPanel[0]" value="0.13387097" />
+    <property name="LiveContextsPanel[1]" value="0.19267823" />
+    <property name="LiveContextsPanel[2]" value="0.23094688" />
+    <property name="MarketplacePluginsSearchHistory" value="GenerateAllSetter&#10;Free MyBatis plugin&#10;free mybaits&#10;free mybaits plugin" />
+    <property name="MavenHelper.lastRadioButton" value="list" />
+    <property name="MavenModuleWizard.inheritGroupId" value="true" />
+    <property name="MavenModuleWizard.inheritVersion" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="PLUGIN_FILTER" value="thymeleaf" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="ProjectStructure.SecondLevelElements" value="0.21135941" />
+    <property name="RegistryRecentKeys" value="compiler.process.jdk=compiler.automake.allow.when.app.running" />
+    <property name="SHFMT.PATH" value="I do mind" />
+    <property name="SearchEveryWhereHistory" value="判断&#10;要&#10;/&#10;InstanceManagerBindings&#10;&quot;需要变更的设备数量为空, 请重新选择\&quot;" />
+    <property name="SettingsSearchHistory" value="encode&#10;paste&#10;new&#10;git&#10;jdk" />
+    <property name="ShowDocumentationInToolWindow" value="false" />
+    <property name="SplitFileEditor.Proportion" value="0.6574321" />
+    <property name="SpringBeansModulesPanel[0]" value="0.1370802" />
+    <property name="SpringBeansModulesPanel[1]" value="0.15898252" />
+    <property name="SpringBeansModulesPanel[2]" value="0.18921477" />
+    <property name="SpringBeansModulesPanel[3]" value="0.23364486" />
+    <property name="SqlStructureView.filterD.file.structure.state" value="true" />
+    <property name="SvgEditorLayout" value="Editor only" />
+    <property name="TrendingPluginsSearchHistory" value="RestfulToolkit&#10;restservice&#10;Restful&#10;Restfultookit&#10;activate-power-mode" />
+    <property name="Vcs.Log.Text.Filter.History" value="权限&#10;wzh" />
+    <property name="Vcs.Push.Splitter.Proportion" value="0.48192772" />
+    <property name="XDebuggerExpressionEditor_Use_Soft_Wraps" value="true" />
+    <property name="android-component-compatibility-check" value="1559720434227" />
+    <property name="bookmarks.splitter" value="0.26398212" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="cn.yiiguxing.plugin.translate.version" value="2.7.0" />
+    <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
+    <property name="com.intellij.database.view.editors.ObjectEditorWithPreview.proportion" value="0.49126214" />
+    <property name="com.intellij.diagnostic.IdeErrorsDialogactiveTab" value="-1" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="190" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.splitter" value="0.43103448" />
+    <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Dependencies" />
+    <property name="com.intellij.remoteServer.impl.runtime.ui.ServersToolWindowContent:com.intellij.remoteServer.impl.runtime.ui.DefaultRemoteServersViewContribution.0" value="153" />
+    <property name="create.project.preferred.importer" value="Existing Sources" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="es6.show.auto.import" value="true" />
+    <property name="evlsprt3.181" value="16" />
+    <property name="evlsprt3.191" value="18" />
+    <property name="file.chooser.recent.files" value="E:/document/fpms1&#10;E:/jianguoyun/java/spring企业应用开发实战/精通spring+4.x/chapter5&#10;E:/maven/apache-maven-3.6.1/conf/settings.xml&#10;E:/maven/apache-maven-3.6.1&#10;D:/project/preparation-paperless/src/main/webapp/WEB-INF/lib&#10;D:/project/preparation-paperless&#10;D:/tomcat/apache-tomcat-9.0.30/apache-tomcat-9.0.30&#10;C:/Users/Administrator/Desktop/free-idea-mybatis-2019.11.27.jar&#10;C:/Users/Administrator/Desktop/free-idea-mybatis-2019.12.10.zip&#10;C:/Users/Administrator/Desktop&#10;C:/Users/Administrator/Desktop/01.Start-Spring-Boot&#10;D:/project/smart-ward/ward-web-station/src/main/resources/static/images&#10;E:/Program Files/JetBrains/plugins/activate-power-mode_v0.1.8.jar&#10;C:/Users/Administrator/Desktop/RestfulToolkit-2.0.9.jar&#10;E:/picture/nowis.png&#10;E:/picture/星空.jpg&#10;E:/picture/流星.jpg&#10;E:/picture/夜空.jpg&#10;E:/picture/59c20064a6e50.jpg&#10;E:/picture/images.jpeg&#10;E:/picture/壁纸.jpg&#10;D:/project&#10;E:/Program Files/Java/jdk1.8.0_151&#10;D:/maven/apache-maven-3.6.0/conf/settings.xml&#10;D:/maven/apache-maven-3.6.0&#10;E:/Program Files/Git/bin/git.exe&#10;C:/Users/wzhia/Desktop/javadoc&#10;E:/yesoft/maven/apache-maven-3.6.0/conf/settings.xml&#10;F:/tomcat/apache-tomcat-8.5.39&#10;E:/yesoft/maven/apache-maven-3.6.0" />
+    <property name="file.gist.reindex.count" value="98199" />
+    <property name="fileTypeChangedCounter" value="173" />
+    <property name="find.popup.splitter" value="0.28881988" />
+    <property name="generate_all_setter_count_notify" value="4" />
+    <property name="idea.background.editor" value="E:\picture\nowis.png,10,scale,middle_left" />
+    <property name="idea.background.frame" value="E:\picture\nowis.png,40,scale,middle_left" />
+    <property name="installed.kotlin.plugin.version" value="1.3.41-release-IJ2019.2-1" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="false" />
+    <property name="kotlin.lastUpdateCheck" value="1560508157420" />
+    <property name="kotlin.plugin.releaseDate" value="1.3.41-release-IJ2019.2-1:2019-07-03" />
+    <property name="last.imported.location" value="E:/document/fpms1" />
+    <property name="lastTip" value="1" />
+    <property name="org.intellij.images.editor.actions.BackgroundImageDialog#recent" value="E:\picture\nowis.png&#10;E:\picture\壁纸.jpg&#10;E:\picture\59c20064a6e50.jpg&#10;E:\picture\流星.jpg&#10;E:\picture\星空.jpg" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1593306747350" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/Desktop" />
+    <property name="project.wizard.group" value="SpringInitializr" />
+    <property name="project.wizard.template" value="Spring Initializr" />
+    <property name="selected.color.option.type" value="SEARCH_RESULT_ATTRIBUTES" />
+    <property name="settings.code.style.selected.tab.JAVA" value="Code Generation" />
+    <property name="spring.initializr.service.url.history" value="" />
+    <property name="spring.initializr.service.url.last" value="https://start.spring.io" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.5.2" />
+    <property name="typescript.show.auto.import" value="true" />
+    <property name="vcs.history.diff.splitter.proportion" value="0.2679808" />
+    <property name="vcs.log.changes.splitter.proportion" value="0.51251996" />
+    <property name="vcs.log.details.splitter.proportion" value="0.7398649" />
+  </component>
+  <component name="WebServicesPluginSettings" SelectedPlatform="Apache Axis" />
+</application>

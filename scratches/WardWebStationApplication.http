@@ -1,0 +1,12 @@
+POST http://localhost:8081/call/all-sick-ajax
+
+<> 2019-06-24T024051.200.json
+
+###
+
+GET http://localhost:8081/call/record/index
+
+<> 2019-06-24T024118.200.html
+
+###
+

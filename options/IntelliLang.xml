@@ -1,0 +1,16 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JSON" injector-id="java">
+      <display-name>VitalSignWebSocket.sendMessage (com.yesoft.ward.module.iot.service)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sendMessage").withParameters("java.lang.String").definedInClass("com.yesoft.ward.module.iot.service.VitalSignWebSocket"))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="java">
+      <display-name>WebSocketClient.sendMessage (com.sonata.demo.ical)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sendMessage").withParameters("java.lang.String").definedInClass("com.sonata.demo.ical.WebSocketClient"))]]></place>
+    </injection>
+    <injection language="GenericSQL" injector-id="xml">
+      <display-name>select</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("select")).withNamespace(string().equalTo("http://mybatis.org/dtd/mybatis-3-mapper.dtd"))]]></place>
+    </injection>
+  </component>
+</application>
